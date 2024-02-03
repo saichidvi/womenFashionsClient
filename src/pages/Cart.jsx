@@ -150,7 +150,7 @@ const Cart = () => {
               </tbody>
             </table>
 
-            <div className="mt-4 text-slate-500 sm:text-xl sm:mt-20">
+            <div className="mt-4 text-slate-500 sm:text-xl sm:mt-20 mb-10 sm:mb-20">
               <strong>
                 Total Price: <span className="text-black">${totalPrice}</span>
               </strong>

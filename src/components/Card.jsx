@@ -7,7 +7,8 @@ import axios from "axios";
 const Card = ({ itemId, price, name, picLink }) => {
   const onSelectCart = async () => {
     try {
-      const apiURL = "http://localhost:3000/api/cart/updateCart";
+      const apiURL =
+        "https://women-fashions-server2.vercel.app/api/cart/updateCart";
       const reqBody = {
         cartId: "65bdc0c72b9e5996eb54703f",
         materialId: itemId,
